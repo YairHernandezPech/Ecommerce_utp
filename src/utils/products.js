@@ -1,62 +1,62 @@
-import productImg01 from "../Images/double-sofa-01.png";
-import productImg02 from "../Images/double-sofa-02.png";
-import productImg03 from "../Images/double-sofa-03.png";
+import productImg01 from "../Images/ropa.jpg";
+import productImg02 from "../Images/ropa.jpg";
+import productImg03 from "../Images/ropa.jpg";
 
-import productImg04 from "../Images/single-sofa-01.jpg";
-import productImg05 from "../Images/single-sofa-02.jpg";
-import productImg06 from "../Images/single-sofa-03.jpg";
-import productImg007 from "../Images/single-sofa-04.png";
+import productImg04 from "../Images/ropa.jpg";
+import productImg05 from "../Images/ropa.jpg";
+import productImg06 from "../Images/ropa.jpg";
+import productImg007 from "../Images/ropa.jpg";
 
-import productImg07 from "../Images/arm-chair-01.jpg";
-import productImg08 from "../Images/arm-chair-02.jpg";
-import productImg09 from "../Images/arm-chair-03.jpg";
-import productImg10 from "../Images/arm-chair-01.jpg";
+import productImg07 from "../Images/ropa.jpg";
+import productImg08 from "../Images/ropa.jpg";
+import productImg09 from "../Images/ropa.jpg";
+import productImg10 from "../Images/ropa.jpg";
 
-import phone01 from "../Images/phone-01.jpg";
-import phone02 from "../Images/phone-02.jpg";
-import phone03 from "../Images/phone-03.png";
-import phone04 from "../Images/phone-04.jpg";
-import phone05 from "../Images/phone-05.jpg";
-import phone06 from "../Images/phone-06.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone01 from "../Images/ropa.jpg";
+import phone02 from "../Images/ropa.jpg";
+import phone03 from "../Images/ropa.jpg";
+import phone04 from "../Images/ropa.jpg";
+import phone05 from "../Images/ropa.jpg";
+import phone06 from "../Images/ropa.jpg";
+import phone08 from "../Images/ropa.jpg";
 
-import watch01 from "../Images/watch-01.jpg";
-import watch02 from "../Images/watch-02.jpg";
-import watch03 from "../Images/watch-03.jpg";
-import watch04 from "../Images/watch-04.jpg";
+import watch01 from "../Images/ropa.jpg";
+import watch02 from "../Images/ropa.jpg";
+import watch03 from "../Images/ropa.jpg";
+import watch04 from "../Images/ropa.jpg";
 
-import wireless01 from "../Images/wireless-01.png";
-import wireless02 from "../Images/wireless-02.png";
-import wireless03 from "../Images/wireless-03.png";
-import wireless04 from "../Images/wireless-04.png";
+import wireless01 from "../Images/ropa.jpg";
+import wireless02 from "../Images/ropa.jpg";
+import wireless03 from "../Images/ropa.jpg";
+import wireless04 from "../Images/ropa.jpg";
 
-import sofaSlide from "../Images/hero-img.png";
-import watchSlide from "../Images/watch-07.png";
+import sofaSlide from "../Images/ropa.jpg";
+import watchSlide from "../Images/ropa.jpg";
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+    id: 1,
+    title: "¡Elegancia al 50% de Descuento en tu Primera Compra!",
+    desc: "Descubre la sofisticación de la moda en TrendyCloset. Disfruta de un 50% de descuento en tu primera compra de ropa elegante. Renueva tu guardarropa con nuestras exclusivas prendas diseñadas para destacar en cualquier ocasión. No te pierdas esta oportunidad única.",
+    cover: sofaSlide,
   },
   {
-      id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+    id: 2,
+    title: "Descubre la Elegancia en Cada Estilo",
+    desc: "En TrendyCloset, la moda elegante es nuestra pasión. Encuentra la perfecta combinación de estilo y comodidad con un descuento especial del 30% en nuestra nueva colección de ropa de alta costura. Eleva tu guardarropa con elegancia hoy mismo.",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+    id: 3,
+    title: "Estilo Clásico con un Descuento Exclusivo del 40%",
+    desc: "Experimenta la atemporalidad de la moda clásica con TrendyCloset. Obtén un descuento exclusivo del 40% en trajes y vestidos clásicos que te acompañarán en cualquier ocasión. Descubre la elegancia que nunca pasa de moda.",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+    id: 4,
+    title: "Redefiniendo la Sofisticación: 25% de Descuento",
+    desc: "En TrendyCloset, estamos redefiniendo la sofisticación en la moda. Aprovecha un 25% de descuento en nuestra última colección de ropa elegante. Cada prenda está diseñada para hacer una declaración de estilo. ¡No te lo pierdas!",
+    cover: watchSlide,
   },
 ];
 
@@ -90,11 +90,11 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Baltsar Chair",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -109,11 +109,11 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Baltsar Chair ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
-    discount:20,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -136,7 +136,7 @@ export const discoutProducts = [
     imgUrl: productImg08,
     category: "chair",
     price: 89,
-    discount:15,
+    discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -155,11 +155,11 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Baltsar Chair",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
-    discount:35,
+    discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -178,11 +178,11 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Baltsar Chair",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
-    discount:10,
+    discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -201,11 +201,11 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Baltsar Chair",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
-    discount:5,
+    discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -222,13 +222,12 @@ export const discoutProducts = [
     ],
     avgRating: 4.8,
   },
-
-]
+];
 
 export const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Baltsar Chair ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -247,7 +246,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Baltsar Chair ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -270,7 +269,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Baltsar Chair",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -292,7 +291,7 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Baltsar Chair ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -314,7 +313,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Baltsar Chair",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -337,7 +336,7 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Baltsar Chair",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -360,7 +359,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "FBaltsar Chair",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -382,7 +381,7 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "SBaltsar Chair",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
@@ -405,7 +404,7 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Baltsar Chair",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
@@ -451,7 +450,7 @@ export const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Baltsar Chair",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -474,7 +473,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Baltsar Chair",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
@@ -496,7 +495,7 @@ export const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Baltsar Chair",
     imgUrl: productImg10,
     category: "chair",
     price: 99,
@@ -518,7 +517,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Baltsar Chair",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
@@ -541,7 +540,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Baltsar Chair",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -564,7 +563,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Baltsar Chair",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -587,7 +586,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Baltsar Chair",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -610,7 +609,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Baltsar Chair",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -633,7 +632,7 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Baltsar Chair",
     imgUrl: watch01,
     category: "watch",
     price: 299,
@@ -656,7 +655,7 @@ export const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Baltsar Chair",
     imgUrl: watch02,
     category: "watch",
     price: 299,
@@ -679,7 +678,7 @@ export const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Baltsar Chair",
     imgUrl: watch03,
     category: "watch",
     price: 299,
@@ -702,7 +701,7 @@ export const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Baltsar Chair",
     imgUrl: watch04,
     category: "watch",
     price: 399,
@@ -725,7 +724,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Baltsar Chair",
     imgUrl: wireless01,
     category: "wireless",
     price: 199,
@@ -748,7 +747,7 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Baltsar Chair",
     imgUrl: wireless03,
     category: "wireless",
     price: 199,
@@ -770,7 +769,7 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Baltsar Chair",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
@@ -792,7 +791,7 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Baltsar Chair",
     imgUrl: wireless04,
     category: "wireless",
     price: 139,
@@ -812,5 +811,4 @@ export const products = [
     ],
     avgRating: 4.8,
   },
-
 ];
