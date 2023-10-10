@@ -10,6 +10,7 @@ const Home =lazy(()=> import("./pages/Home"))
 const Shop =lazy(()=> import("./pages/Shop"))
 const Cart =lazy(()=> import("./pages/Cart"))
 const ProductDetails =lazy(()=> import("./pages/ProductDetails"));
+const Contacto=lazy(()=> import("./pages/Contacto"))
 const Aboutus =lazy(()=> import("./pages/Aboutus"))
 export const DataContainer = createContext();
 function App() {
@@ -64,6 +65,7 @@ function App() {
             <Route path='/shop' element={<Shop/>}/>
             <Route path='/shop/:id' element={<ProductDetails/>}/>
             <Route path='/cart' element={<Cart/>}/>
+            <Route path='/contacto' element={<Contacto/>}/>
             <Route path='/aboutUs' element={<Aboutus/>}/>
           </Routes>
           <Footer />
